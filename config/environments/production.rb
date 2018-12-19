@@ -75,8 +75,8 @@ Rails.application.configure do
     :address        => 'mail.nic.ru',
     :port           => '587',
     :authentication => :plain,
-    :user_name      => ENV['mmzerailstest@tveragroprom.com'],
-    :password       => ENV['A29812804a'],
+    :user_name      => 'mmzerailstest@tveragroprom.com'
+    :password       => 'A29812804a'
     #:domain         => 'tveragroprom.com',
     :enable_starttls_auto => true
   }

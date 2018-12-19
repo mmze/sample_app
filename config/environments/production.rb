@@ -77,7 +77,7 @@ Rails.application.configure do
     :authentication => :plain,
     :user_name      => ENV['mmzerailstest@tveragroprom.com'],
     :password       => ENV['A29812804a'],
-    :domain         => 'tveragroprom.com',
+    #:domain         => 'tveragroprom.com',
     :enable_starttls_auto => true
   }
 
